@@ -69,17 +69,16 @@
             <td>
             I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS<br>
                 <ul>
-                    <li>Ejercicio 1: Invertir Una Matriz</li> 
-                    <p>                    
+                    <li>Ejercicio 1: Invertir Una Matriz</li>                    
 
-                    ```sh
-                    int [] Ain= new int[A.length];
-                    for (int i = 0; i < A.length; i++) {
-                        Ain [i] = A[A.length-1-i];
-                    }
-                    ```
+                                ```sh
+                                int [] Ain= new int[A.length];
+                                for (int i = 0; i < A.length; i++) {
+                                    Ain [i] = A[A.length-1-i];
+                                }
+                                ```
+                                
 
-                    </p>
                     <li>Ejercicio 2 : Rotación a la izquierda</li>
                     <li>Ejercicio 3 : Triángulo recursivo</li>
 
