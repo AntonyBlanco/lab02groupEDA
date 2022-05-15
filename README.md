@@ -69,8 +69,9 @@
             <td>
             I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS<br>
                 <ul>
+                    #
                     <li>Ejercicio 1: Invertir Una Matriz</li>
-
+                    #
                     ```Java
                                 int [] Ain= new int[A.length];
                                 for (int i = 0; i < A.length; i++) {
@@ -78,7 +79,7 @@
                                 }
                     ```
                                 
-
+                    #
                     <li>Ejercicio 2 : Rotación a la izquierda</li>
                     <li>Ejercicio 3 : Triángulo recursivo</li>
 
