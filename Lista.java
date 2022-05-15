@@ -9,22 +9,29 @@ public class Lista {
 	}
 
 	public void add(int index, T element){
+		if(size > index)
+			return; // Termina ejecucion si index es mayor que el tamano de la lista
+		
+		if(arrConteng.length <= index)
+			makeArrContentBigger(); // Hace mas grande el arreglo para colocar elemento nuevo
+
 		if(index == size){
-			if(arrContent.length <= index)
-				makeArrContentBigger();
 			arrContent[index] = element;
 			size++;
 			return;
 		}
-		// else
-		for(int i=0){
-			
+		// else mover los elementos para colocar element en su posicion
+		for(int i = size; i > size - index; i++){
+			arrContent[i] = arrContent[i - 1];
 		}
+		arrContent[index] = element;
+		size++;
 	}
 	public void clear(){
 	// Elimina todos los elementos de la lista
 	// Establece el arreglo a uno vacío de tamaño 2
 		this.arrContent = new T[2];
+		this.size = 0;
 	}
 	private void makeArrContentBigger(){
 	// Incrementa el tamaño del arreglo al doble
