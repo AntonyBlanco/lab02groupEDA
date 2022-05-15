@@ -71,12 +71,12 @@
                 <ul>
                     <li>Ejercicio 1: Invertir Una Matriz</li>                    
 
-                                ```sh
-                                int [] Ain= new int[A.length];
-                                for (int i = 0; i < A.length; i++) {
-                                    Ain [i] = A[A.length-1-i];
-                                }
-                                ```
+                    ```java
+                    int [] Ain= new int[A.length];
+                    for (int i = 0; i < A.length; i++) {
+                        Ain [i] = A[A.length-1-i];
+                    }
+                    ```
                                 
 
                     <li>Ejercicio 2 : Rotación a la izquierda</li>
