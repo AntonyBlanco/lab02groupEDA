@@ -18,6 +18,7 @@ public class Ejercicio1 {
 		matrizPrueba = invertirArray(matrizPrueba);
 		
 		//mostrarArreglo nuevo con arreglo ForEach
+		System.out.println("Matriz Invertida: ");
 		for (int lista:matrizPrueba) {
 			System.out.println(lista);
 		}
@@ -28,9 +29,7 @@ public class Ejercicio1 {
 		int [] Ain= new int[A.length];
 		for (int i = 0; i < A.length; i++) {
 			Ain [i] = A[A.length-1-i];
-			System.out.println("");
 		}
-		System.out.println("Matriz Invertida: ");
 		return Ain;
 	}
 }

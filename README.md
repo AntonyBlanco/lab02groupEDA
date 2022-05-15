@@ -1,4 +1,4 @@
-# Pw2-Lab02
+# EDA-Lab02
 <table>
     <theader>
         <tr>
@@ -69,7 +69,20 @@
             <td>
             I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS<br>
                 <ul>
-                    <li>Colocar ejercicios</li>
+                    <li>Ejercicio 1: Invertir Una Matriz</li> 
+                    <p>                    
+
+                    ```sh
+                    int [] Ain= new int[A.length];
+                    for (int i = 0; i < A.length; i++) {
+                        Ain [i] = A[A.length-1-i];
+                    }
+                    ```
+
+                    </p>
+                    <li>Ejercicio 2 : Rotación a la izquierda</li>
+                    <li>Ejercicio 3 : Triángulo recursivo</li>
+
                 </ul>
             </td>
         </tr>
