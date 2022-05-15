@@ -69,13 +69,13 @@
             <td>
             I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS<br>
                 <ul>
-                    <li>Ejercicio 1: Invertir Una Matriz</li>                    
+                    <li>Ejercicio 1: Invertir Una Matriz</li>
 
                     ```Java
-                    int [] Ain= new int[A.length];
-                    for (int i = 0; i < A.length; i++) {
-                        Ain [i] = A[A.length-1-i];
-                    }
+                                int [] Ain= new int[A.length];
+                                for (int i = 0; i < A.length; i++) {
+                                    Ain [i] = A[A.length-1-i];
+                                }
                     ```
                                 
 
