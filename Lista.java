@@ -29,6 +29,18 @@ public class Lista<T> {
 		this.arrContent = new Object[2];
 		this.size = 0;
 	}
+	public boolean equals(Object o){
+		if(!(o instanceof Lista))
+			return false;
+		Lista tmpO = (Lista)o; // Object -> Lista
+		if(this.size != o.size())
+			return false;
+		for(int i = 0; i < this.size; i++){
+			if(arrContent[i] != o.get(i))
+				return false;
+		}
+		return true;
+	}
 	private void makeArrContentBigger(){
 	// Incrementa el tamaño del arreglo al doble
 		Object[] newArr = new Object[arrContent.length * 2];
