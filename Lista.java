@@ -7,6 +7,21 @@ public class Lista<T> {
 	public Lista(){
 		arrContent = new Object[2];
 	}
+	
+	public boolean add(T element){
+		System.out.println("arrContent.length <= size: " + (arrContent.length <= size));
+		if(arrContent.length <= size) // Verifica que el almacenamiento tenga espacio
+			makeArrContentBigger();
+		arrContent[size] = element;
+		size++;
+		return true;
+	}
+	public int size(){
+		return this.size;
+	}
+	public Object get(int index){
+		return arrContent[index];
+	}
 
 	public void add(int index, T element){
 		if(size < index)
@@ -33,20 +48,22 @@ public class Lista<T> {
 		if(!(o instanceof Lista))
 			return false;
 		Lista tmpO = (Lista)o; // Object -> Lista
-		if(this.size != o.size())
+		if(this.size != tmpO.size())
 			return false;
 		for(int i = 0; i < this.size; i++){
-			if(arrContent[i] != o.get(i))
+			if(arrContent[i] != tmpO.get(i))
 				return false;
 		}
 		return true;
 	}
 	private void makeArrContentBigger(){
 	// Incrementa el tamaño del arreglo al doble
+		//System.out.println("Making bigger");
 		Object[] newArr = new Object[arrContent.length * 2];
 		for(int i = 0; i < arrContent.length; i++){
 			newArr[i] = arrContent[i];
 		}
+		this.arrContent = newArr;
 	}
 	private void makeArrContentSmaller(){
 	// Decrementa el tamaño del arreglo a la mitad
@@ -56,6 +73,7 @@ public class Lista<T> {
 		for(int i = 0; i < newArr.length; i++){
 			newArr[i] = arrContent[i];
 		}
+		this.arrContent = newArr;
 	}
 }
 
