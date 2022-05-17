@@ -68,19 +68,40 @@
         <tr>
             <td>
             I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS<br>
-                <ul>
-                    <li>Ejercicio 1: Invertir Una Matriz</li>
-                    #
-                    ```sh
+-Ejercicio 1: Invertir Una Matriz
+
+Para este ejercicio lo unico necesario de tener bien a mano es el tema de arreglos unidimensionales.
+
+                    ```Java       
                     int [] Ain= new int[A.length];
                     for (int i = 0; i < A.length; i++) {
                     Ain [i] = A[A.length-1-i];
-                    }
                     ```
-                    <li>Ejercicio 2 : Rotación a la izquierda</li>
-                    <li>Ejercicio 3 : Triángulo recursivo</li>
-                </ul>
-            </td>
+-Ejercicio 2:Rotación A La Izquierda
+
+                    ```Java       
+                    int [] Ain= new int[A.length];
+                    for (int i = 0; i < A.length; i++) {
+                    Ain [i] = A[A.length-1-i];
+                    ```
+
+-Ejercicio 3:Triangulo Recursivo
+
+                    ```Java       
+                    int [] Ain= new int[A.length];
+                    for (int i = 0; i < A.length; i++) {
+                    Ain [i] = A[A.length-1-i];
+                    ```
+
+-Ejercicio 4:Implementar La clase List y sus metodos
+
+                    ```Java       
+                    int [] Ain= new int[A.length];
+                    for (int i = 0; i < A.length; i++) {
+                    Ain [i] = A[A.length-1-i];
+                    ```
+
+</td>
         </tr>
         <tr>
             <td>
@@ -104,7 +125,9 @@
             <td>
             III. CONCLUSIONES<br>
                 <ul>
-                    <li>Colocar conclusiones</li>
+                    <li>El ejercicio 4 resultó siendo mas complejo de los esperado, ya que invloucraba entender muchos conceptos para poder desarrollarlo, por ejemplo, endender bien la interfase Collection de java. </li>
+                    <li>la implementación de la clase Lista involucraba tambien entender conceptos de genericidad a nivel avanzado.</li>
+                    <li>Se hizo complejo de desarrollar los metodos que involucraban referenciar a nodos que iban a ser reemplazados</li>
                 </ul>
             </td>
         </tr>
@@ -131,7 +154,7 @@
 <table>
     <theader>
         <tr>
-            <th style="text-align:center">CUESTIONARIO</th>
+            <th style="text-align:center">REFERENCIAS</th>
         </tr>
     </theader>
     <tbody>
@@ -147,9 +170,7 @@
                     <li>[4]	“Java Listas enlazadas Simples”, Delta PC, 28-ene-2019. [En línea]. Disponible en: https://www.deltapci.com/java-listas-enlazadas-simples/. [Consultado: 17-may-2022].
 </li>
                     <li>[5]	“programador clic”, Programmerclick.com. [En línea]. Disponible en: https://programmerclick.com/article/89391964667/. [Consultado: 17-may-2022].
-</li>
-                    <li></li>
-                    <li></li>
+                    </li>
                 </ul>
             </td>
         </tr>
