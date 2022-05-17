@@ -95,6 +95,8 @@ Para este ejercicio lo unico necesario de tener bien a mano es el tema de arregl
 
 -Ejercicio 4:Implementar La clase List y sus metodos
 
+### Implementando el metodo add
+
                     ```Java       
                     int [] Ain= new int[A.length];
                     for (int i = 0; i < A.length; i++) {
