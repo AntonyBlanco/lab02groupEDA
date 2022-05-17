@@ -78,6 +78,20 @@
                     }
                     ```
                     <li>Ejercicio 2 : Rotación a la izquierda</li>
+                    <pre>
+public static int[] rotarIzquierdaArray(int[] A, int d){
+// Metodo para rotar los elementos de un arreglo a la izquierda
+    int[] Arotated = new int[A.length];
+
+    int index;
+    for(int i = 0; i < A.length; i++){
+        index = i + d; // Nueva posicion del elemento
+        if(index >= A.length) index -= A.length; // Limitando a index
+        Arotated[i] = A[index];
+    }
+    return Arotated; // Retorna arreglo diferente a A
+}
+                    </pre>
                     <li>Ejercicio 3 : Triángulo recursivo</li>
                 </ul>
             </td>
