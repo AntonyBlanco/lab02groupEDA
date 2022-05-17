@@ -24,13 +24,25 @@ public class List <T> {
 	
 	//Metodo para agregar una colecion dentro de una lista dado un indice
 	public boolean addAll (int index, Collection<? extends T> coleccion) {
+		Node<T> iter = new Node<>(); //nodo para iterar desde root
+		Node<T> referenciaNodoPosterior = null;
+		iter = this.root;
+		int aux =0;
 		//extraemos los elementos de la coleccion en un arreglo simple
 		Object [] colleccionToArray = coleccion.toArray();
 		//T [] nuevo = coleccion.toArray(new T [coleccion.size()]);
 		int tamaño = colleccionToArray.length;
+		while (iter!=null) {
+			if (aux==index) {
+				referenciaNodoPosterior=iter.nextNode;
+				root.data=(T) colleccionToArray[aux];	
+				root.nextNode=referenciaNodoPosterior;
+			}else {
+				iter = iter.nextNode;
+			}
+			aux++;
 		
-		
-		
+		}		
 		return true;
 	}
 	
@@ -72,6 +84,32 @@ public class List <T> {
 	
 	//Metodo para Remover un elemento con el indice requerido
 	public T remove(int index) {
+		//Node<T> nodoAEliminar = root;
+		Node<T> referenciaNodoPrevio=null;
+		Node<T> iter = new Node<>(); //nodo para iterar desde root
+		Node<T> referenciaNodoPosterior=null;
+		Node<T> referenciaNueva=null;
+		iter = this.root;
+		int aux = 0;
+		if(index==0) {
+			this.root= root.nextNode;
+			iter=null;
+			size--;
+		}
+		while (iter!=null) {
+			if (aux==index-1) {
+				referenciaNodoPrevio=iter;
+			}
+			if (aux==index) {
+				referenciaNodoPosterior=iter.nextNode;
+			}
+			iter = iter.nextNode;
+			referenciaNodoPrevio=referenciaNodoPosterior;
+			aux++;
+			size--;
+			
+		}
+		
 		return null;
 	}
 	

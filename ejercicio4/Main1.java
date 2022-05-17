@@ -33,6 +33,15 @@ public class Main1 {
 		System.out.println("Reemplazar un dato de una lista");
 		lista.set(0, 4);
 		lista.print();
+		System.out.println("");
+		System.out.println("----prueba de eliminacion de elemento de un indice dado----");
+		lista.remove(0);
+		lista.print();
+		System.out.println("");
+		System.out.println("----prueba de agregacion de una coleccion a la lista en ----");
+		lista.addAll(0, vectorPrueba);
+		
+		lista.print();
 		
 	}
 }
