@@ -1,4 +1,4 @@
-# Pw2-Lab02
+# EDA-Lab02
 <table>
     <theader>
         <tr>
@@ -68,10 +68,40 @@
         <tr>
             <td>
             I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS<br>
-                <ul>
-                    <li>Colocar ejercicios</li>
-                </ul>
-            </td>
+-Ejercicio 1: Invertir Una Matriz
+
+Para este ejercicio lo unico necesario de tener bien a mano es el tema de arreglos unidimensionales.
+
+                    ```Java       
+                    int [] Ain= new int[A.length];
+                    for (int i = 0; i < A.length; i++) {
+                    Ain [i] = A[A.length-1-i];
+                    ```
+-Ejercicio 2:Rotación A La Izquierda
+
+                    ```Java       
+                    int [] Ain= new int[A.length];
+                    for (int i = 0; i < A.length; i++) {
+                    Ain [i] = A[A.length-1-i];
+                    ```
+
+-Ejercicio 3:Triangulo Recursivo
+
+                    ```Java       
+                    int [] Ain= new int[A.length];
+                    for (int i = 0; i < A.length; i++) {
+                    Ain [i] = A[A.length-1-i];
+                    ```
+
+-Ejercicio 4:Implementar La clase List y sus metodos
+
+                    ```Java       
+                    int [] Ain= new int[A.length];
+                    for (int i = 0; i < A.length; i++) {
+                    Ain [i] = A[A.length-1-i];
+                    ```
+
+</td>
         </tr>
         <tr>
             <td>
@@ -79,18 +109,33 @@
                 <ul>
                     <li>Colocar preguntas y respuestas</li>
                 </ul>
+                	<dl>
+                    <dt>¿Qué diferencia hay entre un List y un ArrayList en Java?
+                    </dt>
+                    	<dd>La interfaz de lista se utiliza para crear una lista de elementos (objetos) que están asociados con sus números de índice. Mientras que La clase ArrayList se usa para crear una matriz dinámica que contiene objetos.
+		    	        </dd>
+                    <dt>¿¿Qué beneficios y oportunidades ofrecen las clases genéricas en Java?
+                    </dt>
+                    	<dd> Una de las ventaja mas resaltantes es que cons las clases genericas no hay necesidad de transferencia forzada de tipos, lo que mejora la eficiencia y evita errores de transferencia forzada
+			            </dd>
+ 		            </dl>
             </td>
         </tr>
         <tr>
             <td>
             III. CONCLUSIONES<br>
                 <ul>
-                    <li>Colocar conclusiones</li>
+                    <li>El ejercicio 4 resultó siendo mas complejo de los esperado, ya que invloucraba entender muchos conceptos para poder desarrollarlo, por ejemplo, endender bien la interfase Collection de java. </li>
+                    <li>la implementación de la clase Lista involucraba tambien entender conceptos de genericidad a nivel avanzado.</li>
+                    <li>Se hizo complejo de desarrollar los metodos que involucraban referenciar a nodos que iban a ser reemplazados</li>
                 </ul>
             </td>
         </tr>
     </tbody>
 </table>
+
+
+
 
 <table>
     <theader>
@@ -109,14 +154,23 @@
 <table>
     <theader>
         <tr>
-            <th style="text-align:center">REFERENCIAS Y BIBLIOGRAFÍA</th>
+            <th style="text-align:center">REFERENCIAS</th>
         </tr>
     </theader>
     <tbody>
         <tr>
             <td>
                 <ul>
-                    <li>Lista</li>
+                    <li>[1]	“List (java platform SE 7 )”, Oracle.com, 24-jun-2020. [En línea]. Disponible en: https://docs.oracle.com/javase/7/docs/api/java/util/List.html. [Consultado: 17-may-2022].
+                    </li>
+                    <li>[2]	“Collection (java platform SE 7 )”, Oracle.com, 24-jun-2020. [En línea]. Disponible en: https://docs.oracle.com/javase/7/docs/api/java/util/Collection.html. [Consultado: 17-may-2022].
+                    </li>
+                    <li>[3]	“Generic types”, Oracle.com. [En línea]. Disponible en: https://docs.oracle.com/javase/tutorial/java/generics/types.html. [Consultado: 17-may-2022].
+                    </li>
+                    <li>[4]	“Java Listas enlazadas Simples”, Delta PC, 28-ene-2019. [En línea]. Disponible en: https://www.deltapci.com/java-listas-enlazadas-simples/. [Consultado: 17-may-2022].
+</li>
+                    <li>[5]	“programador clic”, Programmerclick.com. [En línea]. Disponible en: https://programmerclick.com/article/89391964667/. [Consultado: 17-may-2022].
+                    </li>
                 </ul>
             </td>
         </tr>
