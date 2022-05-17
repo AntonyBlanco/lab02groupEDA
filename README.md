@@ -68,24 +68,17 @@
         <tr>
             <td>
             I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS<br>
--Ejercicio 1: Invertir Una Matriz
 
+### Ejercicio 1: Invertir Una Matriz
 Para este ejercicio lo unico necesario de tener bien a mano es el tema de arreglos unidimensionales.
 
-                    ```Java       
-                    int [] Ain= new int[A.length];
-                    for (int i = 0; i < A.length; i++) {
-                    Ain [i] = A[A.length-1-i];
-                    ```
--Ejercicio 2:Rotación A La Izquierda
 
                     ```Java       
                     int [] Ain= new int[A.length];
                     for (int i = 0; i < A.length; i++) {
                     Ain [i] = A[A.length-1-i];
                     ```
-
--Ejercicio 3:Triangulo Recursivo
+### Ejercicio 2:Rotación A La Izquierda
 
                     ```Java       
                     int [] Ain= new int[A.length];
@@ -93,9 +86,19 @@ Para este ejercicio lo unico necesario de tener bien a mano es el tema de arregl
                     Ain [i] = A[A.length-1-i];
                     ```
 
--Ejercicio 4:Implementar La clase List y sus metodos
+### Ejercicio 3:Triangulo Recursivo
 
-### Implementando el metodo add
+                    ```Java       
+                    int [] Ain= new int[A.length];
+                    for (int i = 0; i < A.length; i++) {
+                    Ain [i] = A[A.length-1-i];
+                    ```
+
+### Ejercicio 4:Implementar La clase List y sus metodos
+enlace a Implementacion completa: https://github.com/AntonyBlanco/lab02groupEDA/tree/main/ejercicio4
+
+Implementando el metodo add.
+la implementacion de este metodo implica:
 
                     ```Java       
                     int [] Ain= new int[A.length];
