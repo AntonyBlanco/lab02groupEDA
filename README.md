@@ -109,7 +109,8 @@ public static int[] rotarIzquierdaArray(int[] A, int d){
 		    	        </dd>
                     <dt>¿¿Qué beneficios y oportunidades ofrecen las clases genéricas en Java?
                     </dt>
-                    	<dd> Una de las ventaja mas resaltantes es que cons las clases genericas no hay necesidad de transferencia forzada de tipos, lo que mejora la eficiencia y evita errores de transferencia forzada
+                    	<dd> Una de las ventaja mas resaltantes es que con las clases genericas no hay necesidad de transferencia forzada de tipos, lo que mejora la eficiencia y evita errores de transferencia forzada.<br>
+                        Se puede utilizar una gran variedad de clases para la implementación de una estructura lo cual evita que nos quedemos limitados a implementar mediante el uso de una sola clase.
 			            </dd>
  		            </dl>
             </td>
